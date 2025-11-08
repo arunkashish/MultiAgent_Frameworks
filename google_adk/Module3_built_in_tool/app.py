@@ -11,7 +11,7 @@ os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "")
 
 
 OPENROUTER_API_KEY = (
-    "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"
+    "sk"
 )
 
 model1 = LiteLlm(model="gpt-4o", api_key=os.getenv("OPENAI_API_KEY"))
