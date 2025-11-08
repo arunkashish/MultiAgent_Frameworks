@@ -3,8 +3,11 @@ from config.constants import MODEL_OPENAI
 import os
 from dotenv import load_dotenv
 
-# load_dotenv()
-open_router_api_key = ""
+load_dotenv()
+os.environ["OPENROUTER_API_KEY"] = os.getenv("OPENROUTER_API_KEY")
+open_router_api_key = (
+    "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"
+)
 
 
 def get_model_client():

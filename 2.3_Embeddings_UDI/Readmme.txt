@@ -1,0 +1,4 @@
+/Users/arunkumar/Spring/llm/main.py
+
+to run a swagger and populate the data , in one end u need to run the swagger
+in another Terminal you need to run insert data and then u can run the Langgraph ipynb file to start the stream lite and then itis good to go 

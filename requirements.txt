@@ -26,3 +26,5 @@ pyautogen
 pyautogen[codeexecutor]
 streamlit
 autogen-ext[mcp]
+google-adk
+crewai-tools
