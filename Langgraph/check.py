@@ -19,9 +19,9 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langgraph.prebuilt import ToolNode
 
 # %%
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 os.environ["OPENAI_API_KEY"] = ""
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = "tvly-dev-"
 
 
 model = "qwen/qwen3-32b"
